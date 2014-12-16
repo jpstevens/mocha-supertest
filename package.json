@@ -1,0 +1,33 @@
+{
+  "name": "mocha-supertest",
+  "version": "0.0.0-pre1",
+  "description": "Supertest helper for Mocha",
+  "main": "lib/index.js",
+  "scripts": {
+    "test": "mocha test/*-spec.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:jpstevens/mocha-supertest.git"
+  },
+  "author": "Jack Stevens <jack@applyr.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jpstevens/mocha-supertest/issues"
+  },
+  "peerDependencies": {
+    "supertest": "*"
+  },
+  "devDependencies": {
+    "body-parser": "^1.10.0",
+    "chai": "^1.10.0",
+    "express": "^4.10.6",
+    "mocha-shared": "^0.2.0",
+    "supertest": "^0.15.0"
+  },
+  "homepage": "https://github.com/jpstevens/mocha-supertest",
+  "dependencies": {
+    "mocha": "^2.0.1",
+    "chai": "^1.10.0"
+  }
+}
